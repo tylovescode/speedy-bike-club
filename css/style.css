@@ -1,0 +1,78 @@
+body {
+  overflow-x: hidden;
+  font-family: 'Abel', sans-serif;
+}
+
+.navbar {
+  background: #07487b;
+  border-bottom: #fff 1px solid;
+}
+#home-icons a,
+#main-footer a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#main-footer {
+  background: #fff;
+  color: #07487b;
+  width: 100%;
+  font-family: 'Chathura', sans-serif;
+  font-size: 1.2rem;
+  border-top: #07487b 1px dashed;
+}
+
+#main-footer i {
+  color: #07487b;
+}
+
+.jumbotron {
+  background: url('/img/jumbotron2.jpg');
+  position: relative;
+  min-height: 500px;
+  width: 100%;
+  background-size: cover;
+  margin-top: 50px;
+}
+
+#photo-heading {
+  position: relative;
+  min-height: 200px;
+  background: url('/img/hubDetail.JPG');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  margin-top: 50px;
+}
+
+#rides-heading {
+  position: relative;
+  min-height: 200px;
+  background: url('/img/webGallery1.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  margin-top: 50px;
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.speedy-blue {
+  color: #07487b;
+}
+
+.speedy-blue-button {
+  background: #07487b;
+  color: #fff;
+}
